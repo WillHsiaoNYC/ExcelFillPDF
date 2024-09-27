@@ -1,0 +1,15 @@
+# Step 1: Create a new conda environment with Python 3.8
+conda create -n pdf_env python=3.8
+
+# Step 2: Activate the environment
+conda activate pdf_env
+
+# Step 3: Install pandas
+conda install pandas
+
+# Step 4: Install pypdf from conda-forge
+conda install -c conda-forge pypdf
+
+# Step 5: Verify installations (optional)
+conda list pandas
+conda list pypdf
